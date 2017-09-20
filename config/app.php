@@ -177,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //Ultrawares
+//        Ultraware\Roles\RolesServiceProvider::class,
     ],
 
     /*
