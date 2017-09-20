@@ -178,7 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         //Ultrawares
-//        Ultraware\Roles\RolesServiceProvider::class,
+        Ultraware\Roles\RolesServiceProvider::class,
     ],
 
     /*
