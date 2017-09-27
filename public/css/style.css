@@ -1,0 +1,49 @@
+/*Custom styles (Not bootstrap elements)*/
+/*Logo img*/
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.position-ref {
+    position: relative;
+}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.imgFix{
+    height: 600px;
+    width: auto;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+@media screen and (max-width: 845px) {
+    .imgFix {
+        height: 500px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    .imgFix {
+        height: 400px;
+        width: auto;
+    }
+}
+/*Body*/
+body{
+    font-size: 15px;
+    background-color: #fafafa;
+    height: 100vh;
+}
+/*Navbar header*/
+.navbar{
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+
