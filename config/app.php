@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Spenders\Providers\AppServiceProvider::class,
+        Spenders\Providers\AuthServiceProvider::class,
+        // Spenders\Providers\BroadcastServiceProvider::class,
+        Spenders\Providers\EventServiceProvider::class,
+        Spenders\Providers\RouteServiceProvider::class,
 
         //Ultrawares
         Ultraware\Roles\RolesServiceProvider::class,

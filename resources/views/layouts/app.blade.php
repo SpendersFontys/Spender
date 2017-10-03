@@ -11,8 +11,10 @@
     <title>{{ config('app.name', 'Spenders') }}</title>
 
     <!-- Styles -->
+    <link href="{{ asset('css/reset.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -29,9 +31,9 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Spenders') }}
-                    </a>
+                    <b><a class="navbar-brand" href="{{ url('/') }}">
+                            {{ config('app.name', 'Spenders') }}
+                        </a></b>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -44,8 +46,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}"><b>Login</b></a></li>
+                            <li><a href="{{ route('register') }}"><b>Register</b></a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -75,7 +77,35 @@
         @yield('content')
     </div>
 
-    <!-- Scripts -->
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-4">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Facebook</li>
+                        <li>Facebook</li>
+                        <li>Facebook</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    {{--Scripts--}}
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/maps.js') }}"></script>
+    <script src="{{ asset('js/animate.js') }}"></script>
+    <script src="https://use.fontawesome.com/9f3d5e904b.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9yK8trEmC6b0tDmS0WeXD9D72cmHlPHY&callback=initMap">
+    </script>
 </body>
 </html>
