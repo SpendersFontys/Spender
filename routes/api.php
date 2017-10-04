@@ -13,6 +13,23 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+/*Route::get('/users', function (Request $request) 
+{
+
+	$users = User::all();
+	return $users;
+});*/
+
+Route::get('/users', 'apiUserController@returnAllUsers')->name('usersApi');
+Route::get('/user/{id}', 'apiUserController@returnUserById')->name('userIdApi');
+
+Route::get('/companies', 'apiCompanyController@returnAllCompanies')->name('companiesApi');
+Route::get('/company/{id}', 'apiCompanyController@returnCompanyById')->name('companiyIdApi');
+
+Route::get('/cards', 'apiCardController@returnAllCards')->name('cardsApi');
+Route::get('/card/{id}', 'apiCardController@returnCardById')->name('cardIdApi');
+Route::post('/card', 'apiCardController@create')->name('cardsApi');
+
+
+Route::get('/usercards', 'apiUserCardController@returnAllUserCards')->name('userCardsApi');
+Route::get('/usercard/{id}', 'apiUserCardController@returnUserCardById')->name('userCardIdApi');
