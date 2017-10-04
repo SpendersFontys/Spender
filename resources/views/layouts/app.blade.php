@@ -31,19 +31,22 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <b><a class="navbar-brand" href="{{ url('/') }}">
+                    <b>
+                        <a class="navbar-brand" href="{{ url('/') }}">
                             {{ config('app.name', 'Spenders') }}
-                        </a></b>
+                        </a>
+                    </b>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
+                        <!-- Non Authentication Links -->
+                            <li><a href="{{ route('product') }}"><b>Product</b></a></li>
+                            <li><a href="{{ route('team') }}"><b>Team</b></a></li>
+                            <li><a href="{{ route('contact') }}"><b>Contact</b></a></li>
+                        <!-- Divider -->
+                            <li><a>|</a></li>
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}"><b>Login</b></a></li>
@@ -73,11 +76,8 @@
                 </div>
             </div>
         </nav>
-
         @yield('content')
     </div>
-
-
 
     <!--Footer-->
     <footer>
