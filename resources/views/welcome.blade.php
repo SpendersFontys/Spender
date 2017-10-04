@@ -16,10 +16,10 @@
     <section id="eCard" class="bg-lila">
         <div class="container">
             <h1 class="flex-center">E Card</h1>
-            <p class="flex-center">Say hello to youre new card!</p>
+            <p class="flex-center">Say hello to your new card!</p>
             <img class="img-responsive" src="{{ asset("img/PASJE1.png") }}">
-            <p>
-                E Card is built for you! The E Card is designed by a team of Media Panda's.
+            <p class="text e card">
+            <center>E Card is built for you! The E Card is designed by a team of Media Panda's.</center>
             </p>
         </div>
     </section>

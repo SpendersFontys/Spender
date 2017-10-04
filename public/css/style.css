@@ -40,6 +40,7 @@ body{
     color: var(--Grey);
     font-weight: bold;
 }
+
 /*Navbar header*/
 .navbar{
     font-size: 20px;
@@ -83,4 +84,30 @@ footer{
 #map{
     height: 200px;
     width: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Locatie{
+    text-align: center;
+    font-size: 15px;
+}
+#socialmedia{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#contactus{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#mail{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#telnr{
+    font-size: 12px;
+    margin-top: 0px;
 }
