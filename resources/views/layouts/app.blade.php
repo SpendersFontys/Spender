@@ -85,13 +85,16 @@
             <div class="row">
                 <div class="col-xs-6 col-md-4">
                     <ul>
-                        <li>Facebook</li>
-                        <li>Facebook</li>
-                        <li>Facebook</li>
-                        <li>Facebook</li>
-                        <li>Facebook</li>
+                        <h2 id="socialmedia">Follow us:</h2>
+                        <a href="#"><i class="fa fa-facebook-official"style="font-size:26px"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"style="font-size:26px"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" style="font-size:26px"></i></a>
                     </ul>
+                    <h2 id="contactus">Contact us:</h2>
+                    <p id="mail">info@spenders.com</p>
+                    <p id="telnr">+31 6 135 529 74</p>
                 </div>
+                <h2 id="Locatie">Location</h2>
                 <div class="col-xs-12 col-md-8">
                     <div id="map"></div>
                 </div>
