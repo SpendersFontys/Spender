@@ -22,6 +22,12 @@ p{
 .bg-ultralightgrey{
     background-color: var(--Ultralightgrey);
 }
+.bg-lightgrey{
+    background-color: var(--Lightgrey);
+}
+.color-white{
+    color: var(--Offwhite);
+}
 /*Logo img*/
 .flex-center {
     align-items: center;
@@ -112,4 +118,14 @@ ul {
 #telnr{
     font-size: 12px;
     margin-top: 0px;
+}
+.row{
+    margin: 0px !important;
+}
+.teamheader{
+    margin-top: 0px;
+    padding: 22px 0px 22px 0px;
+}
+h2{
+    margin: 0px;
 }
