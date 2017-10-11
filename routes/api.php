@@ -33,3 +33,5 @@ Route::post('/card', 'apiCardController@create')->name('cardsApi');
 
 Route::get('/usercards', 'apiUserCardController@returnAllUserCards')->name('userCardsApi');
 Route::get('/usercard/{id}', 'apiUserCardController@returnUserCardById')->name('userCardIdApi');
+
+Route::get('/scan/{id}', 'apiUserCardController@scannedCard')->name('scanCard');
