@@ -22,6 +22,12 @@ p{
 .bg-ultralightgrey{
     background-color: var(--Ultralightgrey);
 }
+.bg-lightgrey{
+    background-color: var(--Lightgrey);
+}
+.color-white{
+    color: var(--Offwhite);
+}
 /*Logo img*/
 .flex-center {
     align-items: center;
@@ -113,6 +119,7 @@ ul {
     font-size: 12px;
     margin-top: 0px;
 }
+<<<<<<< HEAD
 h3{
     font-size: 30px;
 }
@@ -129,3 +136,15 @@ h4{
 }
 
 
+=======
+.row{
+    margin: 0px !important;
+}
+.teamheader{
+    margin-top: 0px;
+    padding: 22px 0px 22px 0px;
+}
+h2{
+    margin: 0px;
+}
+>>>>>>> 361e40b392590dc7984dfd1e88b0e1689fc97b52
