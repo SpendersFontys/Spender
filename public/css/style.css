@@ -1,49 +1,150 @@
 /*Custom styles (Not bootstrap elements)*/
+/*Color Variables (Huisstijl)*/
+:root{
+    --Lila: #d9d7eb;
+    --Offwhite: #FCFDFD;
+    --Ultralightgrey: #f3f3f3;
+    --Lightgrey: #767575;
+    --Grey: #302f2f;
+    --DarkGrey: #21151A;
+}
+/*Elements*/
+p{
+    font-size: 20px;
+}
+/*BG colors*/
+.bg-lila{
+    background-color: var(--Lila);
+}
+.bg-offwhite{
+    background-color: var(--Offwhite);
+}
+.bg-ultralightgrey{
+    background-color: var(--Ultralightgrey);
+}
+.bg-lightgrey{
+    background-color: var(--Lightgrey);
+}
+.color-white{
+    color: var(--Offwhite);
+}
 /*Logo img*/
 .flex-center {
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.position-ref {
-    position: relative;
-}
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
 .imgFix{
-    height: 600px;
     width: auto;
-    background-color: #f3f3f3;
-    padding: 10px;
-}
-@media screen and (max-width: 845px) {
-    .imgFix {
-        height: 500px;
-        width: auto;
-    }
-}
-@media screen and (max-width: 500px) {
-    .imgFix {
-        height: 400px;
-        width: auto;
-    }
+    background-color: var(--Ultralightgrey);
+    padding: 15px;
 }
 /*Body*/
 body{
     font-size: 15px;
-    background-color: #fafafa;
-    height: 100vh;
+    background-color: var(--Offwhite);
+    color: var(--Grey);
+    font-weight: bold;
 }
+
 /*Navbar header*/
 .navbar{
     font-size: 20px;
     border: none;
     background-color: transparent;
+    border-bottom: 0.5px solid var(--DarkGrey);
 }
 .navbar-brand{
     font-size: 20px;
 }
+.navbar-default .navbar-brand{
+    color: var(--Grey);
+}
+/*Arrow*/
+.arrow{
+    padding: 20px 0px;
+    font-size: 50px;
+    color: var(--Grey);
+}
+/*A links*/
+a{
+    color: var(--Grey);
+    text-decoration: inherit;
+}
+a:hover{
+    color: var(--Lila);
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+    color: var(--Grey);
+}
+/*H1*/
+h1{
+    font-weight: bold;
+}
+/*Footer*/
+footer{
+    padding: 20px 0px;
+    background-color: var(--Ultralightgrey);
+    color: var(--DarkGrey);
+}
+/*Maps api*/
+/* key: AIzaSyD9yK8trEmC6b0tDmS0WeXD9D72cmHlPHY */
+#map{
+    height: 200px;
+    width: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Locatie{
+    text-align: center;
+    font-size: 15px;
+}
+#socialmedia{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#contactus{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#mail{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#telnr{
+    font-size: 12px;
+    margin-top: 0px;
+}
+<<<<<<< HEAD
+h3{
+    font-size: 30px;
+}
+/*Bootstrap changer*/
+/*Neels css*/
+.sectionClass{
+    padding: 25px 0px 50px 0px;
+    font-size: 18px;
 
+}
+h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+=======
+.row{
+    margin: 0px !important;
+}
+.teamheader{
+    margin-top: 0px;
+    padding: 22px 0px 22px 0px;
+}
+h2{
+    margin: 0px;
+}
+>>>>>>> 361e40b392590dc7984dfd1e88b0e1689fc97b52
