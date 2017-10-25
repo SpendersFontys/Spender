@@ -9,8 +9,45 @@
     --DarkGrey: #21151A;
 }
 /*Elements*/
+body{
+    font-size: 15px;
+    background-color: var(--Offwhite);
+    color: var(--Grey);
+    font-weight: bold;
+}
+
+h1{
+    font-weight: bold;
+}
+h2{
+    margin: 0px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 p{
     font-size: 20px;
+}
+a{
+    color: var(--Grey);
+    text-decoration: inherit;
+}
+a:hover{
+    color: var(--Lila);
+}
+footer{
+    padding: 20px 0px;
+    background-color: var(--Ultralightgrey);
+    color: var(--DarkGrey);
 }
 /*BG colors*/
 .bg-lila{
@@ -28,31 +65,13 @@ p{
 .color-white{
     color: var(--Offwhite);
 }
-/*Logo img*/
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.imgFix{
-    width: auto;
-    background-color: var(--Ultralightgrey);
-    padding: 15px;
-}
-/*Body*/
-body{
-    font-size: 15px;
-    background-color: var(--Offwhite);
-    color: var(--Grey);
-    font-weight: bold;
-}
-
 /*Navbar header*/
 .navbar{
     font-size: 20px;
     border: none;
     background-color: transparent;
     border-bottom: 0.5px solid var(--DarkGrey);
+    margin-bottom: 0px !important;
 }
 .navbar-brand{
     font-size: 20px;
@@ -62,30 +81,13 @@ body{
 }
 /*Arrow*/
 .arrow{
-    padding: 20px 0px;
     font-size: 50px;
     color: var(--Grey);
 }
 /*A links*/
-a{
-    color: var(--Grey);
-    text-decoration: inherit;
-}
-a:hover{
-    color: var(--Lila);
-}
+
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
     color: var(--Grey);
-}
-/*H1*/
-h1{
-    font-weight: bold;
-}
-/*Footer*/
-footer{
-    padding: 20px 0px;
-    background-color: var(--Ultralightgrey);
-    color: var(--DarkGrey);
 }
 /*Maps api*/
 /* key: AIzaSyD9yK8trEmC6b0tDmS0WeXD9D72cmHlPHY */
@@ -93,50 +95,13 @@ footer{
     height: 200px;
     width: auto;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#Locatie{
-    text-align: center;
-    font-size: 15px;
-}
-#socialmedia{
-    font-size: 15px;
-    margin-bottom: 0px;
-}
-#contactus{
-    font-size: 15px;
-    margin-bottom: 0px;
-}
-#mail{
-    font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-#telnr{
-    font-size: 12px;
-    margin-top: 0px;
-}
-<<<<<<< HEAD
-h3{
-    font-size: 30px;
-}
-/*Bootstrap changer*/
-/*Neels css*/
+
 .sectionClass{
     padding: 25px 0px 50px 0px;
     font-size: 18px;
 
 }
-h4{
-    font-size: 30px;
-    font-weight: bold;
-}
 
-
-=======
 .row{
     margin: 0px !important;
 }
@@ -144,7 +109,12 @@ h4{
     margin-top: 0px;
     padding: 22px 0px 22px 0px;
 }
-h2{
-    margin: 0px;
+/*Font awesome icons*/
+.faFix {
+    font-size: 50px !important;
 }
->>>>>>> 361e40b392590dc7984dfd1e88b0e1689fc97b52
+/*Bootstrap changer*/
+.alert, .thumbnail {
+     margin-bottom: 0px;
+}
+/*Neels css*/
