@@ -19,17 +19,27 @@
 
     <section class="bg-lila">
         <div class="container sectionClass">
+            <header>
+                <h2 class="text-center">What we offer!</h2>
+            </header>
+            <hr>
             <div class="row">
                 <div class="col-sm-4 col-md-4">
-                    <img class="center-block" src="{{ asset("img/sending kopie.png") }}">
+                    <div class="text-center">
+                        <i class="fa fa-plane faContact" aria-hidden="true"></i>
+                    </div>
                     <p class="text-center">Free next-day delivery<br>on any in-stock E-card ordered by 5:00 p.m.</p>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                    <img class="center-block" src="{{ asset("img/place kopie.png") }}">
+                    <div class="text-center">
+                        <i class="fa fa-home faContact" aria-hidden="true"></i>
+                    </div>
                     <p class="text-center">Pick up at the pop up Spenders Store today<br>Buy online, pick up available items in an hour.</p>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                    <img class="center-block" src="{{ asset("img/customize kopie.png") }}">
+                    <div class="text-center">
+                        <i class="fa fa-plus-square faContact" aria-hidden="true"></i>
+                    </div>
                     <p class="text-center">Choose your own color!</p>
                 </div>
             </div>

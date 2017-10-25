@@ -46,11 +46,6 @@
                                         <small class="block">Business</small>
                                     </h2>
                                 </div>
-                                <div class="pull-right">
-                                    <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="btn ico-only btn-twitter btn-xs"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="btn ico-only btn-google-plus btn-xs"><i class="fa fa-google-plus"></i></a>
-                                </div>
                             </div>
                             <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
@@ -69,11 +64,6 @@
                                         <small class="block">Business</small>
                                     </h2>
                                 </div>
-                                <div class="pull-right">
-                                    <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="btn ico-only btn-twitter btn-xs"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="btn ico-only btn-google-plus btn-xs"><i class="fa fa-google-plus"></i></a>
-                                </div>
                             </div>
                             <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
@@ -84,7 +74,7 @@
     </section>
 
     <section>
-        <div class="row">
+        <div class="row bg-lightgrey">
             <div class="col-md-6 bg-lila sectionClass">
                 <h2 class="text-center teamheader">
                     <strong>Team</strong> Media
@@ -101,11 +91,6 @@
                                     <h2 class="nomargin">Bryan Schoot
                                         <small class="block">Media developer</small>
                                     </h2>
-                                </div>
-                                <div class="pull-right">
-                                    <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="btn ico-only btn-twitter btn-xs"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="btn ico-only btn-google-plus btn-xs"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                             <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
@@ -125,11 +110,6 @@
                                     <h2 class="nomargin"> Neeltje van Tilburg
                                         <small class="block">Media designer</small>
                                     </h2>
-                                </div>
-                                <div class="pull-right">
-                                    <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="btn ico-only btn-twitter btn-xs"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="btn ico-only btn-google-plus btn-xs"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                             <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
@@ -154,11 +134,6 @@
                                     <h2 class="nomargin"> Nico Shultz
                                         <small class="block">The developer!</small>
                                     </h2>
-                                </div>
-                                <div class="pull-right">
-                                    <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="btn ico-only btn-twitter btn-xs"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="btn ico-only btn-google-plus btn-xs"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                             <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
