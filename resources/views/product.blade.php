@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-offset-2 col-md-8">
                     <h2 class="text-center">E-card</h2>
-                    <img class="img-responsive center-block" src="{{ asset("img/design pasje zp kopie.png") }}">
+                    <img class="img-responsive center-block" src="{{ asset("img/pasje liggend met beeld copy kopie.png") }}">
                 </div>
             </div>
             <div class="row">
@@ -54,7 +54,7 @@
                     <p>Say hello to your new E-Card, <br> and goodbye your overcrowded wallet!</p>
                 </div>
                 <div class="col-md-8">
-                    <img class="img-responsive" src="{{ asset("img/pasje liggend met beeld copy kopie.png") }}">
+                    <img class="img-responsive" src="{{ asset("img/design pasje zp kopie.png") }}">
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@
                 <div class="caption text-left">
                     <div class="clearfix margin-bottom10">
                         <div class="pull-left">
-                            <h2 class="nomargin">The Team<small class="block">Founders of Spenders</small></h2>
+                            <h2 class="nomargin">The Team<small class="block"> Founders of Spenders</small></h2>
                         </div>
                     </div>
                     <p class="noborder nomargin nopadding">Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>

@@ -78,24 +78,24 @@ button{
 }
 footer{
     padding: 20px 0px;
-    background-color: var(--Ultralightgrey);
-    color: var(--DarkGrey);
+    background-color: var(--Ultralightgrey)!important;
+    color: var(--DarkGrey)!important;
 }
 /*BG colors*/
 .bg-lila{
-    background-color: var(--Lila);
+    background-color: var(--Lila)!important;
 }
 .bg-offwhite{
-    background-color: var(--Offwhite);
+    background-color: var(--Offwhite)!important;
 }
 .bg-ultralightgrey{
-    background-color: var(--Ultralightgrey);
+    background-color: var(--Ultralightgrey)!important;
 }
 .bg-lightgrey{
-    background-color: var(--Lightgrey);
+    background-color: var(--Lightgrey)!important;
 }
 .color-white{
-    color: var(--Offwhite);
+    color: var(--Offwhite)!important;
 }
 /*Navbar header*/
 .navbar{
@@ -153,5 +153,17 @@ footer{
     background-size: cover;
     position: relative;
     padding: 200px 0px 200px 0px;
+}
+.form-control, output{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--Text);
+}
+.btn{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--Text);
 }
 /*Neels css*/

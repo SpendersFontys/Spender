@@ -18,7 +18,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top bg-ultralightgrey">
             <div class="container">
                 <div class="navbar-header">
 
@@ -31,11 +31,10 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <b>
-                        <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ url('/') }}"><b>
                             {{ config('app.name', 'Spenders') }}
-                        </a>
-                    </b>
+                        </b>
+                    </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -45,12 +44,10 @@
                             <li><a href="{{ route('product') }}">Product</a></li>
                             <li><a href="{{ route('team') }}">Team</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
-                        <!-- Divider -->
-                            <li><a>|</a></li>
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}"><b>Login</b></a></li>
+                            <li><a href="{{ route('register') }}"><b>Register</b></a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -95,6 +92,9 @@
                 <div class="col-xs-12 col-md-8">
                     <div id="map"></div>
                 </div>
+            </div>
+            <div class="text-center">
+                <?php echo "<p>Copyright &copy; " . date("M Y") . " Spenders</p>"; ?>
             </div>
         </div>
     </footer>
