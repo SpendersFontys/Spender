@@ -7,6 +7,7 @@
     --Lightgrey: #767575;
     --Grey: #302f2f;
     --DarkGrey: #21151A;
+    --Text: #777;
 }
 /*Elements*/
 body{
@@ -36,13 +37,41 @@ ul {
 }
 p{
     font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--Text);
+    margin: 11px 0 11px 0 !important;
 }
 a{
-    color: var(--Grey);
+    color: var(--Text);
     text-decoration: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
 }
 a:hover{
     color: var(--Lila);
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--DarkGrey);
+}
+input{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--Text);
+}
+i {
+    color: var(--DarkGrey);
+}
+button{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--Text);
 }
 footer{
     padding: 20px 0px;
@@ -95,26 +124,31 @@ footer{
     height: 200px;
     width: auto;
 }
-
 .sectionClass{
-    padding: 25px 0px 50px 0px;
-    font-size: 18px;
-
+    padding: 25px 0px 25px 0px;
 }
-
 .row{
     margin: 0px !important;
 }
 .teamheader{
     margin-top: 0px;
-    padding: 22px 0px 22px 0px;
+    padding: 0 0 22px 0;
 }
 /*Font awesome icons*/
-.faFix {
-    font-size: 50px !important;
+.faTeam {
+    font-size: 30px !important;
+}
+.faContact {
+    font-size: 75px !important;
 }
 /*Bootstrap changer*/
 .alert, .thumbnail {
      margin-bottom: 0px;
+}
+.divImg{
+    background-image: url("../img/contact/banner.png");
+    background-size: cover;
+    position: relative;
+    padding: 200px 0px 200px 0px;
 }
 /*Neels css*/

@@ -3,10 +3,8 @@
 @section('content')
     <section class="bg-lila">
         <div class="container sectionClass">
-            <header>
-                <h2 class="teamheader">
-                    <strong>Team</strong> Page
-                </h2>
+            <header class="text-center">
+                <h2 class="teamheader"><strong>Team</strong> Page</h2>
             </header>
             <div class="row">
                 <span class="item-image">
@@ -19,9 +17,7 @@
                 <div class="caption text-left">
                     <div class="clearfix margin-bottom10">
                         <div class="pull-left">
-                            <h4 class="nomargin">The Team
-                                <small class="block">Founders of Spenders</small>
-                            </h4>
+                            <h2 class="nomargin">The Team<small class="block">Founders of Spenders</small></h2>
                         </div>
                     </div>
                     <p class="noborder nomargin nopadding">Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
@@ -46,9 +42,9 @@
 
                             <div class="clearfix margin-bottom10">
                                 <div class="pull-left">
-                                    <h4 class="nomargin">Wessel Jansen
+                                    <h2 class="nomargin">Wessel Jansen
                                         <small class="block">Business</small>
-                                    </h4>
+                                    </h2>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
@@ -69,9 +65,9 @@
 
                             <div class="clearfix margin-bottom10">
                                 <div class="pull-left">
-                                    <h4 class="nomargin">Willem Simonis
+                                    <h2 class="nomargin">Willem Simonis
                                         <small class="block">Business</small>
-                                    </h4>
+                                    </h2>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
@@ -102,9 +98,9 @@
 
                             <div class="clearfix margin-bottom10">
                                 <div class="pull-left">
-                                    <h4 class="nomargin">Bryan Schoot
+                                    <h2 class="nomargin">Bryan Schoot
                                         <small class="block">Media developer</small>
-                                    </h4>
+                                    </h2>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
@@ -126,9 +122,9 @@
 
                             <div class="clearfix margin-bottom10">
                                 <div class="pull-left">
-                                    <h4 class="nomargin"> Neeltje van Tilburg
+                                    <h2 class="nomargin"> Neeltje van Tilburg
                                         <small class="block">Media designer</small>
-                                    </h4>
+                                    </h2>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>
@@ -155,9 +151,9 @@
 
                             <div class="clearfix margin-bottom10">
                                 <div class="pull-left">
-                                    <h4 class="nomargin"> Nico Shultz
+                                    <h2 class="nomargin"> Nico Shultz
                                         <small class="block">The developer!</small>
-                                    </h4>
+                                    </h2>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" class="btn ico-only btn-facebook btn-xs"><i class="fa fa-facebook"></i></a>

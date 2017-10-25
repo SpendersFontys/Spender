@@ -17,7 +17,7 @@
 
     <section id="eCard" class="bg-lila sectionClass">
         <div class="container">
-            <h1 class="text-center">E Card</h1>
+            <h2 class="text-center">E Card</h2>
             <p class="text-center">Say hello to your new card!</p>
             <img class="img-responsive" src="{{ asset("img/PASJE1.png") }}">
             <p class="text-center">E Card is built for you! The E Card is designed by a team of Media Panda's.</p>

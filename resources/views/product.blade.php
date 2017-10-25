@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-2 col-md-8">
-                    <h4 class="text-center">E-card</h4>
+                    <h2 class="text-center">E-card</h2>
                     <img class="img-responsive center-block" src="{{ asset("img/design pasje zp kopie.png") }}">
                 </div>
             </div>
@@ -40,8 +40,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h4>Life is easier with E-Card</h4>
-                    Say hello to your new E-Card, <br> and goodbye your overcrowded wallet!
+                    <h2>Life is easier with E-Card</h2>
+                    <p>Say hello to your new E-Card, <br> and goodbye your overcrowded wallet!</p>
                 </div>
                 <div class="col-md-8">
                     <img class="img-responsive" src="{{ asset("img/pasje liggend met beeld copy kopie.png") }}">

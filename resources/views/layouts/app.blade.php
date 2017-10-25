@@ -42,15 +42,15 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Non Authentication Links -->
-                            <li><a href="{{ route('product') }}"><b>Product</b></a></li>
-                            <li><a href="{{ route('team') }}"><b>Team</b></a></li>
-                            <li><a href="{{ route('contact') }}"><b>Contact</b></a></li>
+                            <li><a href="{{ route('product') }}">Product</a></li>
+                            <li><a href="{{ route('team') }}">Team</a></li>
+                            <li><a href="{{ route('contact') }}">Contact</a></li>
                         <!-- Divider -->
                             <li><a>|</a></li>
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}"><b>Login</b></a></li>
-                            <li><a href="{{ route('register') }}"><b>Register</b></a></li>
+                            <li><a href="{{ route('login') }}">Login</a></li>
+                            <li><a href="{{ route('register') }}">Register</a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -85,13 +85,13 @@
             <div class="row">
                 <div class="col-xs-6 col-md-4">
                     <ul>
-                        <h4>Follow us on</h4>
-                        <li><h4><a href="#"><i class="fa fa-facebook-official faFix"></i><small> Facebook</small></a></h4></li>
-                        <li><h4><a href="#"><i class="fa fa-twitter-square faFix"></i><small> Twitter</small></a></h4></li>
-                        <li><h4><a href="#"><i class="fa fa-linkedin-square faFix"></i><small> Linkedin</small></a></h4></li>
+                        <h2>Follow us on</h2>
+                        <li><p><a href="#"><i class="fa fa-facebook-official faTeam"></i><small> Facebook</small></a></p></li>
+                        <li><p><a href="#"><i class="fa fa-twitter-square faTeam"></i><small> Twitter</small></a></p></li>
+                        <li><p><a href="#"><i class="fa fa-linkedin-square faTeam"></i><small> Linkedin</small></a></p></li>
                     </ul>
                 </div>
-                <h4 class="text-center">Location</h4>
+                <h2 class="text-center">Location</h2>
                 <div class="col-xs-12 col-md-8">
                     <div id="map"></div>
                 </div>
