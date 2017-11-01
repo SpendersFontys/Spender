@@ -16,12 +16,37 @@
     </div>
     </section>
 
-    <section id="eCard" class="bg-lila sectionClass">
+    <div id="eCard" class="bg-lila sectionClass">
         <div class="container">
-            <h2 class="text-center">E Card</h2>
-            <p class="text-center">Say hello to your new card!</p>
+            <h2 class="text-center">HALLO TOEKOMST</h2>
+            <p class="text-center">Heeft u ook een overvolle portemonnee?<br>
+                Sla al uw pasjes veilig op en digitaliseer uw portemonnee met uw eigen E CARD <br></p>
+            <br>
             <img class="img-responsive" src="{{ asset("img/PASJE1.png") }}">
-            <p class="text-center">E Card is built for you! The E Card is designed by a team of Media Panda's.</p>
+            <div class="text-center">
+                <p></p>
+                <a href="{{ route('product') }}" class="btn btn-primary bg-offwhite ">Koop nu!</a>
+                <br>
+                <br>
+                <br>
+            </div>
         </div>
+    </div>
+
+    <div id="eCard" class="sectionClass">
+        <div class="container">
+            <h2 class="text-center"><b>SPENDERS</b></h2>
+            <p class="text-center">
+                <br>
+                Als bedrijf is Spenders gespecialiseerd in het maken van Touch screen pasjes.<br>
+                Deze pasjes zullen voor commerciële doeleindes gebruikt worden. Het voornaamste <br>
+                doel van Spenders is om alle kortings kaarten die er beschikbaar zijn te verzamelen <br>
+                en dit terug te brengen naar 1 pasje. Het is dus de bedoeling dat de klant hier zelf <br>
+                in kan bepalen welke pasjes er in gebruik genomen gaan worden.<br>
+                <br></p>
+            <br>
+            </div>
+        </div>
+    </div>
     </section>
 @endsection

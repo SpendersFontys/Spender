@@ -45,6 +45,7 @@
                             <li><a href="{{ route('team') }}">Team</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         <!-- Authentication Links -->
+                        <!--
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}"><b>Login</b></a></li>
                             <li><a href="{{ route('register') }}"><b>Register</b></a></li>
@@ -69,6 +70,7 @@
                                 </ul>
                             </li>
                         @endif
+                        -->
                     </ul>
                 </div>
             </div>
@@ -82,13 +84,13 @@
             <div class="row">
                 <div class="col-xs-6 col-md-4">
                     <ul>
-                        <h2>Follow us on</h2>
+                        <h2>Volg ons!</h2>
                         <li><p><a href="#"><i class="fa fa-facebook-official faTeam"></i><small> Facebook</small></a></p></li>
                         <li><p><a href="#"><i class="fa fa-twitter-square faTeam"></i><small> Twitter</small></a></p></li>
                         <li><p><a href="#"><i class="fa fa-linkedin-square faTeam"></i><small> Linkedin</small></a></p></li>
                     </ul>
                 </div>
-                <h2 class="text-center">Location</h2>
+                <h2 class="text-center">Locatie</h2>
                 <div class="col-xs-12 col-md-8">
                     <div id="map"></div>
                 </div>

@@ -4,7 +4,7 @@
     <section class="bg-lila">
         <div class="container sectionClass">
             <header class="text-center">
-                <h2 class="teamheader"><strong>Team</strong> Page</h2>
+                <h2 class="teamheader"><strong>Team</strong> Pagina</h2>
             </header>
             <div class="row">
                 <span class="item-image">
@@ -14,13 +14,20 @@
                     <img id="changeImg" class="img-responsive mySlides" src="{{ asset("img/team/treamtrap4.png") }}" alt="">
                     <img id="changeImg" class="img-responsive mySlides" src="{{ asset("img/team/treamtrap5.png") }}" alt="">
                 </span>
+                <br>
                 <div class="caption text-left">
                     <div class="clearfix margin-bottom10">
                         <div class="pull-left">
-                            <h2 class="nomargin">The Team<small class="block"> Founders of Spenders</small></h2>
+                            <h2 class="nomargin">Oprichters van Spenders</h2>
                         </div>
                     </div>
-                    <p class="noborder nomargin nopadding">Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
+                    <p class="noborder nomargin nopadding">“Spenders” is ontstaan omdat er een probleem is waar we dagelijks tegenaan lopen.
+                        Onze portemonnees zijn vaak onnodig te dik.
+                        De voornaamste reden hiervoor is, zoals eerder beschreven,
+                        dat we iedere dag teveel pasjes met ons meedragen waardoor we tegen meerdere problemen aanlopen die simpel zijn te voorkomen.
+                        Zo is een te dikke portemonnee niet alleen onhandig om met je mee te dragen, maar slijten je broeken zo ook sneller,
+                        moet je vaak langer zoeken naar de juiste pasjes, beschadigen de pasjes of misschien raak je wel weer pasjes kwijt.
+                    </p>
                 </div>
             </div>
         </div>
@@ -47,7 +54,6 @@
                                     </h2>
                                 </div>
                             </div>
-                            <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +71,6 @@
                                     </h2>
                                 </div>
                             </div>
-                            <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +98,6 @@
                                     </h2>
                                 </div>
                             </div>
-                            <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
                     </div>
                 </div>
@@ -112,7 +116,6 @@
                                     </h2>
                                 </div>
                             </div>
-                            <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +139,6 @@
                                     </h2>
                                 </div>
                             </div>
-                            <p class="noborder nomargin nopadding"><?php $value = str_limit('The PHP framework for web artisans.', 50); echo $value ?></p>
                         </div>
                     </div>
                 </div>
